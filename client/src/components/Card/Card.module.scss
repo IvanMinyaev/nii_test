@@ -1,0 +1,30 @@
+@import '../../assets//helpers/index.scss';
+
+.wrapper {
+  width: 350px;
+  height: 233px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  min-width: 290px;
+
+  &__typography {
+    padding-top: 47px;
+    padding-left: 41px;
+    margin-bottom: 61px;
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction:row-reverse;
+    padding-right: 36px;
+  }
+
+  &__active {
+    width: 350px;
+    height: 233px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-width: 290px;
+    background-color: $primary;
+  }
+}

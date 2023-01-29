@@ -1,0 +1,65 @@
+@import '../../../assets/helpers/index.scss';
+
+// input {
+//   width: 199px;
+//   height: 58px;
+//   box-sizing: border-box;
+//   border: 1px solid #959CA9;
+//   border-radius: 0px;
+//   opacity: 0.5;
+//   text-align:center;
+//   margin-left: 37px;
+//   color: #000
+
+//   &__error {
+//     color: $clear;
+//     padding-top: 4px;
+//     line-height: 22px;
+//     max-width: 100%;
+//   }
+// }
+
+.input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    width: 199px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid #959CA9;
+    border-radius: 0px;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 37px;
+    color: #000
+  }
+
+  &_disabled {
+    input {
+      background-color: $gray;
+    }
+  }
+
+  &_invalid {
+    input {
+      border: 1px solid $clear;
+    }
+  }
+
+  &_fullwidth {
+    input {
+      width: 100%;
+    }
+  }
+
+  &__error {
+    font-size: 12px;
+    color: $clear;
+    padding-top: 4px;
+    margin-left: 37px;
+    text-align: center;
+  }
+
+}

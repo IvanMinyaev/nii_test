@@ -1,0 +1,31 @@
+@import '../src/assets/helpers/colors.scss';
+
+.list_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.search_block {
+  display: flex;
+  margin-bottom: 29px;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.button_wraper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.error {
+	text-align: center;
+	color: $clear;
+}
